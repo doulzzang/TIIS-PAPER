@@ -1,0 +1,17 @@
+env/
+chad_comparison/env/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+CHAD_Meta/
+CHAD_Meta.zip
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.log
+*.tmp
+.DS_Store
+.vscode/

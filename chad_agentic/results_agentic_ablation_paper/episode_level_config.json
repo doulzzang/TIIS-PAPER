@@ -1,0 +1,12 @@
+{
+  "scores": "results_episode_tuned_balanced/agentic_test_scores_and_reasons.csv",
+  "ablation": "results_episode_tuned_balanced/agentic_ablation_results.csv",
+  "output_dir": "results_agentic_ablation_paper",
+  "fps": 30.0,
+  "gap_sec": 1.05,
+  "match_tolerance_sec": 0.0,
+  "gap_frames": 32,
+  "match_tolerance_frames": 0,
+  "observed_hours": 3.1134351851851854,
+  "delay_definition": "first positive prediction-window episode"
+}

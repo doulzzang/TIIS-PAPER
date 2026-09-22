@@ -1,0 +1,19 @@
+INTERACTIVE PHYSICS LAB v3.2.3 온도 입력 및 가시화 수정
+=====================================================
+
+- Extension 시작 시 안내 TXT 자동 팝업 제거
+- Open Korean Guide TXT 버튼은 필요할 때만 사용
+- 온도 상태 Label을 단순 고정 24px Label로 복원
+- Temperature +5 (T), Temperature -5 버튼 추가
+- 버튼과 T/Shift+T가 동일한 _adjust_temperature() 사용
+- 하단 상태창에 이전 온도→현재 온도와 Lab 2 armed YES/NO 표시
+- Mission: READY (ARMED) 또는 Mission: NOT ARMED로 준비 상태 명시
+- Console에 [Lab 2 Key], [Lab 2 Temperature], [Lab 2 State] 단계 로그 출력
+
+정상 시험 순서:
+Lab 1-B → Lab 1-C → Lab 2 → Temperature +5 버튼 3회
+
+정상 표시:
+Temperature: 40.0 °C
+Mission: ACTIVE
+AGV State: PLAN_PUSH_1 이후 자동 전환

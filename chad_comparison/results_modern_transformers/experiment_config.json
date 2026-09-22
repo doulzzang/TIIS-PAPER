@@ -1,0 +1,44 @@
+{
+  "windows": "chad_windows_xywh_2s_4s.npz",
+  "models": [
+    "tcn",
+    "transformer",
+    "actor_pair_transformer",
+    "patchtst",
+    "itransformer"
+  ],
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "epochs": 30,
+  "patience": 5,
+  "batch_size": 32,
+  "workers": 4,
+  "lr": 0.0001,
+  "d_model": 64,
+  "heads": 4,
+  "layers": 2,
+  "patch_len": 4,
+  "patch_stride": 2,
+  "feature_policy": "legacy",
+  "output_dir": "results_modern_transformers",
+  "window_shape": [
+    39476,
+    20,
+    65
+  ],
+  "split_counts": {
+    "train": 19025,
+    "val": 4923,
+    "test": 15528
+  },
+  "positive_counts": {
+    "train": 2195,
+    "val": 291,
+    "test": 2131
+  },
+  "base_feature_count": 59,
+  "all_feature_count": 65
+}

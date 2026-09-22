@@ -1,0 +1,2 @@
+model,gt_episodes,pred_episodes,matched_episodes,false_alarm_episodes,episode_precision,episode_recall,episode_f1,mean_delay_sec,median_delay_sec
+proposed_agentic_state_memory,299,367,97,270,0.26430517711171664,0.32441471571906355,0.29129128634341556,3.8000000000000003,2.0

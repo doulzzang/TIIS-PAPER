@@ -1,0 +1,27 @@
+{
+  "windows": "chad_windows_2s_4s_v2.npz",
+  "model_dir": "results_chad_gpu",
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "output_dir": "results_hybrid_fusion",
+  "batch_size": 256,
+  "alpha_step": 0.05,
+  "pr_weight": 0.7,
+  "k": 5,
+  "memory_size": 20,
+  "min_history": 3,
+  "ema": 0.7,
+  "update_gate": 0.7,
+  "weight_step": 0.1,
+  "max_weight": 0.6,
+  "memory_component_weights": [
+    0.30000001192092896,
+    0.30000001192092896,
+    0.30000001192092896,
+    0.10000000149011612
+  ],
+  "score_calibration": "validation empirical CDF"
+}

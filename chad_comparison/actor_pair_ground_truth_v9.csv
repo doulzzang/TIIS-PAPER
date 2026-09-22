@@ -1,0 +1,9 @@
+﻿video_id,start_frame,end_frame,event_type,abnormal_actor_ids,abnormal_pair_ids,annotator_note
+1_071_1,69,390,pair_interaction,2;3,2-3,
+2_082_1,1010,1165,pair_interaction,4;8,4-8,
+3_084_1,285,445,single_actor,6,,
+4_078_1,100,235,single_actor,4,,
+1_095_1,88,225,single_actor,1,,
+2_094_1,98,270,single_actor,3,,
+3_090_1,295,441,single_actor,7,,
+4_112_1,158,290,single_actor,14,,

@@ -1,0 +1,4 @@
+model,episode_roc_auc_mean,episode_roc_auc_std,episode_pr_auc_mean,episode_pr_auc_std,f1_mean,f1_std,precision_mean,precision_std,recall_mean,recall_std
+actor_pair_transformer,0.6553514376996805,,0.04658013404222758,,0.05263157894736842,,0.03333333333333333,,0.125,
+tcn,0.8063099041533547,,0.3300718651999487,,0.2222222222222222,,1.0,,0.125,
+transformer,0.7068690095846645,,0.06250263180208229,,0.04878048780487805,,0.025,,1.0,

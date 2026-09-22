@@ -1,0 +1,40 @@
+{
+  "windows": "chad_windows_2s_4s_v2.npz",
+  "output_dir": "results_episode_memory_v2",
+  "k": 5,
+  "memory_size": 20,
+  "min_history": 3,
+  "ema": 0.7,
+  "update_gate": 0.7,
+  "weight_step": 0.1,
+  "max_weight": 0.6,
+  "pr_weight": 0.7,
+  "selected_weights": {
+    "proposed_instant": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "proposed_actor_memory": [
+      0.6000000238418579,
+      0.4000000059604645,
+      0.0,
+      0.0
+    ],
+    "proposed_actor_pair_id_memory": [
+      0.30000001192092896,
+      0.4000000059604645,
+      0.30000001192092896,
+      0.0
+    ],
+    "proposed_full_episode_memory": [
+      0.30000001192092896,
+      0.30000001192092896,
+      0.30000001192092896,
+      0.10000000149011612
+    ]
+  },
+  "actor_history_calibration_n": 13020,
+  "pair_history_calibration_n": 10543
+}
