@@ -8,7 +8,7 @@ The complete CHAD dataset is not redistributed here. Download it from the offici
 
 The original `CHAD_Meta/`, virtual environments, generated `.npz` features, and trained checkpoints are excluded from Git. Existing CSV, JSON, and LaTeX result tables document the reported experiments. The paper-ready table is `chad_agentic/results_agentic_ablation_paper/paper_ablation_table.tex`.
 
-From the repository root, install dependencies with `pip install -r chad_comparison/requirements.txt`. The default protocol is a 2-second observation window followed by a 4-second evaluation interval. Use official CHAD train/validation/test splits and fit normalization and thresholds on training and validation data only.
+From the repository root, install dependencies with `pip install -r chad_comparison/requirements.txt`. The canonical commands and source files are under `src/final/`; the default protocol is a 2-second observation window followed by a 4-second evaluation interval. Use official CHAD train/validation/test splits and fit normalization and thresholds on training and validation data only.
 
 The manuscript is submitted separately. Install Git LFS before downloading selected videos and run `git lfs pull`. The repository must preserve CHAD attribution and original terms.
 

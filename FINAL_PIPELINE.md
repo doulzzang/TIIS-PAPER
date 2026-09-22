@@ -1,7 +1,8 @@
 # Canonical CVIU experiment mapping
 
-The repository contains several development generations. This mapping marks
-the files and result snapshots corresponding to the manuscript version.
+The local working directory contained several development generations. The
+public source tree keeps only the final code for each experiment type under
+`src/final/`; this mapping marks those files and result snapshots.
 
 | Manuscript component | Canonical source | Result snapshot |
 |---|---|---|

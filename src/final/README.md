@@ -1,8 +1,8 @@
 # Final manuscript pipeline
 
-These files are the canonical versions used to reproduce the CVIU manuscript
-results. Older files under `chad_comparison/` and `chad_agentic/` are retained
-as development history and are not the canonical entry points.
+These files are the only canonical versions used to reproduce the CVIU
+manuscript results. Development-version scripts are not included in the
+public source tree.
 
 Run commands from the repository root with `PYTHONPATH=src/final`.
 
