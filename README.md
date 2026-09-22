@@ -11,3 +11,10 @@ The original `CHAD_Meta/`, virtual environments, generated `.npz` features, and 
 From the repository root, install dependencies with `pip install -r chad_comparison/requirements.txt`. The default protocol is a 2-second observation window followed by a 4-second evaluation interval. Use official CHAD train/validation/test splits and fit normalization and thresholds on training and validation data only.
 
 The manuscript is submitted separately. Install Git LFS before downloading selected videos and run `git lfs pull`. The repository must preserve CHAD attribution and original terms.
+
+## Canonical manuscript implementation
+
+The final paper pipeline is collected under `src/final/`. Use
+`FINAL_PIPELINE.md` for the mapping from each manuscript experiment to its
+canonical source and result snapshot. Older versioned scripts remain in the
+original directories as development history.
