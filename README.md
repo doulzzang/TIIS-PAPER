@@ -1,4 +1,4 @@
-# CVIU Agentic Memory for Actor-Centric Video Anomaly Detection
+#  Agentic Memory for Actor-Centric Video Anomaly Detection
 
 This repository contains the implementation, evaluation scripts, selected experiment videos, and result tables supporting the CVIU manuscript. The manuscript DOCX is not redistributed in this public repository.
 
