@@ -1,6 +1,6 @@
 #  Agentic Memory for Actor-Centric Video Anomaly Detection
 
-This repository contains the implementation, evaluation scripts, selected experiment videos, and result tables supporting the CVIU manuscript. The manuscript DOCX is not redistributed in this public repository.
+This repository contains the implementation, evaluation scripts, selected experiment videos, and result tables supporting the TIIS manuscript. The manuscript DOCX is not redistributed in this public repository.
 
 The complete CHAD dataset is not redistributed here. Download it from the official [TeCSAR-UNCC/CHAD repository](https://github.com/TeCSAR-UNCC/CHAD) and follow its license and citation requirements. Download `CHAD_Meta` and the official split files before preparing windows.
 
